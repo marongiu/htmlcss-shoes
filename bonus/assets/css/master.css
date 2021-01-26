@@ -8,6 +8,12 @@ body {
   font-family: Courier;
 }
 
+/* header circle button */
+
+.fas {
+  color: white;
+}
+
 /* VH */
 .differente {
   height: 100vh;

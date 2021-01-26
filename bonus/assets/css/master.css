@@ -10,8 +10,15 @@ body {
 
 /* header circle button */
 
-.fas {
+.differente .bottoni .fas {
   color: white;
+  font-size: 30px;
+}
+
+.bottoni {
+  position: absolute;
+  top: 20px;
+  right: 15px;
 }
 
 /* VH */

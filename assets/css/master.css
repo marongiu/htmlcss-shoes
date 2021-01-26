@@ -30,21 +30,23 @@ body {
 /* POSIZIONAMENTO SCARPE */
 .shoes {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .shoes-two {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-right: 10px;
 }
+
 
 .shoes-three {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -63,7 +65,6 @@ body {
   margin-top: 7%;
   margin-left: 25%;
 }
-
 
 
 .text-converse {

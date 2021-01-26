@@ -8,7 +8,7 @@ body {
   font-family: Courier;
 }
 
-
+/* VH */
 .differente {
   height: 100vh;
   background: #ff0000;
@@ -27,36 +27,13 @@ body {
   position: relative;
 }
 
-
+/* POSIZIONAMENTO SCARPE */
 .shoes {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-.title p{
-  color: #ffff00;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 67px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px;
-  font-weight: bold;
-}
-
-.title .text {
-  margin-top: 15%;
-  padding: 1%;
-}
-
-.title .space {
-  margin-top: 18%;
-}
-
 
 .shoes-two {
   position: absolute;
@@ -72,24 +49,28 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
-.title-converse p{
-  color: green;
+/* TITOLI SCARPE */
+.text {
+  color: #ffff00;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 67px;
   text-transform: uppercase;
   text-shadow: 1px 1px;
   font-weight: bold;
 }
 
-.text-converse {
-  margin-top: 15%;
-  padding: 1%;
+.space {
+  margin-top: 7%;
+  margin-left: 25%;
 }
 
-.space-converse {
-  margin-top: 18%;
+
+
+.text-converse {
+  color: green;
+  position: absolute;
+  font-size: 67px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px;
+  font-weight: bold;
 }

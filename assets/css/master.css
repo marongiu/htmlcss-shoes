@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.differente {
+  height: 100vh;
+  background: #ff0000;
+}
+
+.hilfiger {
+  height: 100vh;
+  background: #008000;
+}
+
+.converse {
+  height: 100vh;
+  background-color: #ffff00;
+}
+
+.differente img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1.text {
+  color: #ffff00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 15%;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px;
+}
+
+.text span {
+  text-align: center;
+}

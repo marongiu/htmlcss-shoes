@@ -4,41 +4,92 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Courier;
+}
+
 
 .differente {
   height: 100vh;
   background: #ff0000;
+  position: relative;
 }
 
 .hilfiger {
   height: 100vh;
   background: #008000;
+  position: relative;
 }
 
 .converse {
   height: 100vh;
   background-color: #ffff00;
+  position: relative;
 }
 
-.differente img{
+
+.shoes {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.title h1.text {
+
+.title p{
   color: #ffff00;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 15%;
-  font-size: 50px;
+  font-size: 67px;
   text-transform: uppercase;
   text-shadow: 1px 1px;
+  font-weight: bold;
 }
 
-.text span {
-  text-align: center;
+.title .text {
+  margin-top: 15%;
+  padding: 1%;
+}
+
+.title .space {
+  margin-top: 18%;
+}
+
+
+.shoes-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shoes-three {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.title-converse p{
+  color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 67px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px;
+  font-weight: bold;
+}
+
+.text-converse {
+  margin-top: 15%;
+  padding: 1%;
+}
+
+.space-converse {
+  margin-top: 18%;
 }

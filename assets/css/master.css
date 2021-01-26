@@ -55,10 +55,11 @@ body {
 .text {
   color: #ffff00;
   position: absolute;
-  font-size: 67px;
+  font-size: 75px;
   text-transform: uppercase;
   text-shadow: 1px 1px;
   font-weight: bold;
+  padding-left: 30px;
 }
 
 .space {
@@ -70,8 +71,9 @@ body {
 .text-converse {
   color: green;
   position: absolute;
-  font-size: 67px;
+  font-size: 75px;
   text-transform: uppercase;
   text-shadow: 1px 1px;
   font-weight: bold;
+  padding-left: 30px;
 }

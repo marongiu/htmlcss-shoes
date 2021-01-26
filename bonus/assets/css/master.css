@@ -21,6 +21,30 @@ body {
   right: 15px;
 }
 
+span.circle {
+  font-size: 20px;
+  color: black;
+}
+
+#one {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+#two {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+}
+
+#three {
+  position: absolute;
+  top: 5px;
+  left: 90px;
+}
+
+
 /* VH */
 .differente {
   height: 100vh;
